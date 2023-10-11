@@ -1,7 +1,7 @@
   source('global.R')
   shinyUI(
     div(
-      navbarPage(strong('National Housing Assistance', style="color: black; body{background-color: #11141d;}"),
+      navbarPage(strong('National Housing Assistance'), theme = 'black.css',
                  tabPanel("INTRODUCTION", style = "body{background-color: #11141d}",
                           mainPanel(width = 12,style = "overflow-y:scroll; height: 850px; max-height: 750px; font-size: 18px;",
                                     h2("Project2: National Housing Assistance"),
